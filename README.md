@@ -1,11 +1,13 @@
 # یک وب سایت فارسی ساده مبتنی بر لاراول
 
-An app for listing Laravel gigs/jobs. This project is from my YouTube "[Laravel From Scratch 2022](https://www.youtube.com/watch?v=MYyJ4PuL4pY)" course.
-
+در این سایت ساده می توان فرصتهای شغلی را ارسال کرد. 
 ![Alt text](/public/images/screen.png "LaraGigs")
 
-## Usage
-
+## نحوه ی استفاده
+بعد ازدانلود، ابتدا دستور زیر را صادر کنید تا فایلهایی که توسط گیت نادیده گرفته می شوند به پروژه اضافه شوند.
+```
+composer install
+```
 ### Database Setup
 This app uses MySQL. To use something different, open up config/Database.php and change the default driver.
 
