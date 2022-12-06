@@ -1,18 +1,20 @@
 # یک وب سایت فارسی ساده مبتنی بر لاراول
 
-An app for listing Laravel gigs/jobs. This project is from my YouTube "[Laravel From Scratch 2022](https://www.youtube.com/watch?v=MYyJ4PuL4pY)" course.
-
+در این سایت ساده می توان فرصتهای شغلی را ارسال کرد. 
 ![Alt text](/public/images/screen.png "LaraGigs")
 
-## Usage
-
-### Database Setup
-This app uses MySQL. To use something different, open up config/Database.php and change the default driver.
-
-To use MySQL, make sure you install it, setup a database and then add your db credentials(database, username and password) to the .env.example file and rename it to .env
+## نحوه ی استفاده
+بعد ازدانلود، ابتدا دستور زیر را صادر کنید تا فایلهایی که توسط گیت نادیده گرفته می شوند به پروژه اضافه شوند.
+```
+composer install
+```
+### تنظیمات پایگاه داده
+این سایت از MySql استفاده می کند . برای استفاده از دیگر پایگاه داده ها فایل config/Database.php را باز کنید و مقدار پیش فرض آن را تغییر دهید.
+برای استفاده از MySql باید ابتدا انرا روی دستگاه خود نصب کنید و تنظمیات مبوطه شامل اسم کاربری، اسم پایگاه داده و رمز عبور را وارد کنید. 
 
 ### Migrations
-To create all the nessesary tables and columns, run the following
+برای ایچاد migration ها از دیتور زیر استفاده کنید:
+
 ```
 php artisan migrate
 ```
