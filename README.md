@@ -42,6 +42,6 @@ php artisan storage:link
 php artisan serve
 ```
 
-## License
+## مجوز
 
-این پروژه یک نرم افزار متن باز تحت لیسانس  [MIT license](https://opensource.org/licenses/MIT) است. 
+این پروژه یک نرم افزار متن باز تحت مجوز  [MIT license](https://opensource.org/licenses/MIT) است. 
