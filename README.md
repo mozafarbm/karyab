@@ -44,4 +44,4 @@ php artisan serve
 
 ## License
 
-The LaraGigs app is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+این پروژه یک نرم افزار متن باز تحت لیسانس  [MIT license](https://opensource.org/licenses/MIT) است. 
